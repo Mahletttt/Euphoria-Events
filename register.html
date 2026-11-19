@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Register for exciting events and experiences with Euphoria Events.">
+
+    <title>Euphoria Events | Register</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Make It Happen. Be There.</h1>
+
+        <p>Every great experience starts with a simple step. Find your event and save your place!</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Explore Events</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Let's Get You Registered!</h2>
+
+            <p>
+                Ready to be part of something exciting? Tell us a little
+                about yourself and choose the event you'd love to attend.
+                It only takes a few moments!
+            </p>
+
+            <form>
+
+                <fieldset>
+                    <legend>A Little About You</legend>
+
+                    <p>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose Your Experience</legend>
+
+                    <p>
+                        <label for="event">Which event would you like to attend?</label>
+
+                        <select id="event" name="event" required>
+                            <option value="">Select an event</option>
+                            <option value="music">Live Music Festival</option>
+                            <option value="technology">Technology and Innovation Conference</option>
+                            <option value="business">Business and Entrepreneurship Workshop</option>
+                        </select>
+                    </p>
+
+                    <p>How would you prefer to join us?</p>
+
+                    <input type="radio" id="inperson" name="attendance" value="in-person" required>
+                    <label for="inperson">In Person</label>
+
+                    <input type="radio" id="online" name="attendance" value="online">
+                    <label for="online">Online</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Anything Else?</legend>
+
+                    <p>
+                        <label for="message">Have a question or something you'd like us to know? (Optional)</label>
+                    </p>
+
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+
+                </fieldset>
+
+                <p>
+                    <input type="submit" value="Submit Registration">
+                    <input type="reset" value="Clear Form">
+                </p>
+
+            </form>
+
+        </section>
+
+        <section>
+            <h2>We're Here to Help</h2>
+
+            <p>
+                Need more information before registering?
+                Have a question about an event? We'd be happy to hear from you.
+            </p>
+
+            <p>
+                <a href="mailto:euphoriaevents@example.com">Get in Touch</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Euphoria Events. All rights reserved.</p>
+
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="events.html">Explore Events</a> |
+            <a href="register.html">Register</a>
+        </p>
+    </footer>
+
+</body>
+</html>
